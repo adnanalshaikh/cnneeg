@@ -1,0 +1,23 @@
+{
+  
+  "exppath"             : "D:/research/cnneeg/experiments/", 
+  "datapath"            : "D:/research/cnneeg/data/images/",
+  "expname"             : "junk1",
+  "data_file_name"      : "data_64.hdr",
+  "validation_ratio"    : 0.10,
+  
+  "model"               : 4,	
+  "dropout_rate"        : 0.5,
+  "num_epochs"          : 300,
+  "batch_size"          : 64,
+  "es_patience"         : 80,
+
+  "resume_cv"           : 0,
+  "number_folds"        : 10,  
+  
+  "num_bags"            : 5,
+  "num_stacks"          : 5,
+  
+  "random_state"        : 23
+  
+}
